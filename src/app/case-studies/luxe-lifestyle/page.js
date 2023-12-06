@@ -72,7 +72,7 @@ const page = () => {
                             <div className="cases-right">
                                 <p>The insights derived from our study enabled our client to offer invaluable assistance to their clients. The findings shed light on the factors driving demand for luxury home appliance brands and elucidated the on-site sales processes. Importantly, the research highlighted how customers respond to seller recommendations in their purchase decisions. <br/>
 
-                                  Our client was well-equipped to leverage these insights to formulate effective marketing strategies, optimize their retail outcomes, and cater to the evolving needs of consumers in the luxury home appliance segment. The study thus contributed to the enhancement of our client's advisory services and their ability to guide their clients toward success in the high-end home appliance market.
+                                  Our client was well-equipped to leverage these insights to formulate effective marketing strategies, optimize their retail outcomes, and cater to the evolving needs of consumers in the luxury home appliance segment. The study thus contributed to the enhancement of our client`&apos;`s advisory services and their ability to guide their clients toward success in the high-end home appliance market.
                                 </p>
                             </div>
                         </div>

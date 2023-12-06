@@ -39,7 +39,7 @@ const SurveyProgramming = () => {
 
               <p>
                 At Continuum Insights, we take pride in our exceptional Survey Programming and Data Analysis services,
-                setting us apart from the competition. Here's why we stand out:
+                setting us apart from the competition. Here`&apos;`s why we stand out:
               </p>
               <p><span className="ExtraBold">Unparalleled Expertise:</span>
                 Our team comprises seasoned professionals who possess in-depth knowledge and experience in both survey
@@ -53,7 +53,7 @@ const SurveyProgramming = () => {
                 accuracy, reliability, and relevance in our analyses.
               </p>
               <p><span className="ExtraBold"> Comprehensive Insights:</span>
-                We don't just provide data; we offer insights. Our data analysis goes beyond simple summaries, providing
+                We don`&apos;`t just provide data; we offer insights. Our data analysis goes beyond simple summaries, providing
                 you with a deep understanding of the trends, patterns, and implications within your data.
               </p>
               <p><span className="ExtraBold"> Timely Delivery:</span>

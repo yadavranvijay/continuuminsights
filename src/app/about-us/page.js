@@ -79,7 +79,7 @@ const About = () => {
     <div className="col-md-4 col-sm-6 my-3">
       <div className="wrapper p-relative">
         <figure className="p-relative">
-          <img src="images/about-us/team-member-1.jpg" alt="" />
+          <img src="/images/about-us/team-member-1.jpg" alt="" />
           <div className="member-name text-white">
             <span className="Bold p-relative pb-2">Founder</span>
             <h3 className="ExtraBold h4 mt-3">Vikas Yadav</h3>
@@ -102,7 +102,7 @@ const About = () => {
     <div className="col-md-4 col-sm-6 my-3">
       <div className="wrapper p-relative">
         <figure className="p-relative">
-          <img src="images/about-us/team-member-2.jpg" alt="" />
+          <img src="/images/about-us/team-member-2.jpg" alt="" />
           <div className="member-name text-white">
             <span className="Bold p-relative pb-2">Director of Sales</span>
             <h3 className="ExtraBold h4 mt-3">Monika</h3>
@@ -125,7 +125,7 @@ const About = () => {
     <div className="col-md-4 col-sm-6 my-3">
       <div className="wrapper p-relative">
         <figure className="p-relative">
-          <img src="images/about-us/team-member-3.jpg" alt="" />
+          <img src="/images/about-us/team-member-3.jpg" alt="" />
           <div className="member-name text-white">
             <span className="Bold p-relative pb-2">Supply Manager</span>
             <h3 className="ExtraBold h4 mt-3">Vijay Singh</h3>
@@ -147,7 +147,7 @@ const About = () => {
     <div className="col-12 my-3">
       <div className="wrapper p-relative">
         <figure className="p-relative">
-          <img src="images/about-us/team.jpg" alt="" />
+          <img src="/images/about-us/team.jpg" alt="" />
           <div className="member-name text-white">
             <span className="Bold p-relative pb-2">Our Team</span>
             <h3 className="ExtraBold h4 mt-3">Continuum Insights</h3>
@@ -191,7 +191,7 @@ const About = () => {
                       <div className="img-wrapper p-relative">
                         <img
                           className="content-bg w-100"
-                          src="images/about-us/ab1.jpg"
+                          src="/images/about-us/ab1.jpg"
                           alt=""
                         />
                        
@@ -203,7 +203,7 @@ const About = () => {
                       <div className="img-wrapper p-relative">
                         <img
                           className="content-bg w-100"
-                          src="images/about-us/ab2.jpg"
+                          src="/images/about-us/ab2.jpg"
                           alt=""
                         />
                         
@@ -215,7 +215,7 @@ const About = () => {
                       <div className="img-wrapper p-relative">
                         <img
                           className="content-bg w-100"
-                          src="images/about-us/ab3.jpg"
+                          src="/images/about-us/ab3.jpg"
                           alt=""
                         />
                        
@@ -233,7 +233,7 @@ const About = () => {
                 className="about-map-right wow fadeInRight animated"
                 
               >
-                <img src="images/countrys-map.png" alt="countrys map" />
+                <img src="/images/countrys-map.png" alt="countrys map" />
               </div>
             </div>
           </div>

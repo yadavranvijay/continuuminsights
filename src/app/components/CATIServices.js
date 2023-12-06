@@ -100,7 +100,7 @@ const tabbtn2 =()=>{
                 <div className="col-md-1"></div>
                 <div className="col-md-4">
                   <figure>
-                    <img src="images/service/cati-team.jpg" alt="" />
+                    <img src="/images/service/cati-team.jpg" alt="" />
                   </figure>
                 </div>
               </div>
@@ -132,7 +132,7 @@ const tabbtn2 =()=>{
                     computer
                     program to guide the conversation and record the responses. <br/>
           
-                    The interviewer uses the computer program to ask the questions and enter the respondent's answers, which are
+                    The interviewer uses the computer program to ask the questions and enter the respondent`&apos;`s answers, which are
                     then
                     stored in a database for analysis. <br/>
           
@@ -161,7 +161,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/cati.jpg" alt="" />
+                  <img src="/images/service/cati.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -229,7 +229,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/cati-b2b.jpg" alt="" />
+                  <img src="/images/service/cati-b2b.jpg" alt="" />
                 </figure>
               </div>
             </div>

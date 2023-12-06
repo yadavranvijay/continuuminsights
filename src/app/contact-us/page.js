@@ -53,17 +53,17 @@ const Contact = () => {
        <ul>
          <li className="d-flex mb-3">
            <span className="icon-box">
-             <img className="icon-img" src="images/icons/phone.png" alt="phone" />
+             <img className="icon-img" src="/images/icons/phone.png" alt="phone" />
            </span><a href="tel:01244221101"> 0124 422 1101</a>
          </li>
          <li className="d-flex my-4">
            <span className="icon-box">
-             <img className="icon-img" src="images/icons/envelope.png" alt="envelope" />
+             <img className="icon-img" src="/images/icons/envelope.png" alt="envelope" />
            </span><a href="mailto:rfq@continuuminsights.com">rfq@continuuminsights.com</a>
          </li>
          <li className="d-flex  mt-5">
            <span className="icon-box">
-             <img className="icon-img" src="images/icons/location.png" alt="location" />
+             <img className="icon-img" src="/images/icons/location.png" alt="location" />
            </span>
            
              <p> 5th Floor, 501, JMD Megapolis IT Park, Sohna Road,
@@ -71,7 +71,7 @@ const Contact = () => {
          </li>
          <li className="d-flex  mt-5">
            <span className="icon-box">
-             <img className="icon-img" src="images/icons/location.png" alt="location" />
+             <img className="icon-img" src="/images/icons/location.png" alt="location" />
            </span>
           
              <p> Gopalakrishna complex 45/3, M Residency Road, Mahatma

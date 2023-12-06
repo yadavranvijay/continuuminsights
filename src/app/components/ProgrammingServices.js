@@ -98,15 +98,15 @@ const tabbtn2 =()=>{
                   investigating potential links between variables. <br />
                   In this approach, we construct both independent and
                   dependent variables to forecast a relationship. The
-                  independent variable is often regarded as the 'cause,'
-                  while the dependent variable is the 'result.'"
+                  independent variable is often regarded as the cause,
+                  while the dependent variable is the result.
                 </p>
               </div>
 
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/sp-1.jpg" alt="" />
+                  <img src="/images/service/sp-1.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -155,7 +155,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/sp-2.jpg" alt="" />
+                  <img src="/images/service/sp-2.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -202,7 +202,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/sp-3.jpg" alt="" />
+                  <img src="/images/service/sp-3.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -258,7 +258,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/sp-4.jpg" alt="" />
+                  <img src="/images/service/sp-4.jpg" alt="" />
                 </figure>
               </div>
             </div>

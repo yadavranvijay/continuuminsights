@@ -21,7 +21,7 @@ const  ReviewSlider =()=> {
         <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="" />
           </div>
           <div className="text">
             <p className="employeespeak-content">
@@ -38,7 +38,7 @@ const  ReviewSlider =()=> {
       <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="" />
           </div>
           <div className="text">
             <p className="employeespeak-content">
@@ -55,7 +55,7 @@ const  ReviewSlider =()=> {
       <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="" />
           </div>
           <div className="text">
             <p className="employeespeak-content">

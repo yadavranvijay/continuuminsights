@@ -27,7 +27,7 @@ const Choose = () => {
                 <figure>
                   <img
                     className="d-block w-100"
-                    src="images/about-us/choose.png"
+                    src="/images/about-us/choose.png"
                     alt="panel"
                   />
                 </figure>

@@ -24,7 +24,7 @@ const  HomeCaseStudies =()=> {
         <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="images/home/digital-world.jpg" alt="" />
+            <img src="/images/home/digital-world.jpg" alt="" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -45,7 +45,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="images/home/team-stratgy.jpg" alt="" />
+            <img src="/images/home/team-stratgy.jpg" alt="" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -65,7 +65,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="images/case/case-3.jpg" alt="" />
+            <img src="/images/case/case-3.jpg" alt="" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -86,7 +86,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="images/case/case-8.jpg" alt="" />
+            <img src="/images/case/case-8.jpg" alt="" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">

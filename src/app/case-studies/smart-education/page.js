@@ -23,7 +23,7 @@ const page = () => {
                                               </div>
                                               <div className="cases-right">
                                                 
-                                                  <p>In a world where continuous technological advancements have reshaped the educational landscape, our goal was to delve into the implications and opportunities these changes have brought to today's education system. To achieve this, we specifically targeted students across various universities. Our primary objectives were to gauge the growing significance of education, gain a comprehensive overview of education trends in diverse markets, and assess the impact of smart education on students.</p>
+                                                  <p>In a world where continuous technological advancements have reshaped the educational landscape, our goal was to delve into the implications and opportunities these changes have brought to today`&apos;`s education system. To achieve this, we specifically targeted students across various universities. Our primary objectives were to gauge the growing significance of education, gain a comprehensive overview of education trends in diverse markets, and assess the impact of smart education on students.</p>
                 
                                               </div>
                                           </div>
@@ -68,7 +68,7 @@ const page = () => {
                                               <div className="cases-right">
                                                   <p>The research findings provided our client with valuable insights into the ways colleges and universities can harness technology to set themselves apart in the eyes of students. Furthermore, the study shed light on the extent to which students perceive smart education applications as beneficial in preparing them for future careers. <br/>
                 
-                                                    This research equips educational institutions and stakeholders with a better understanding of how technology can enhance the learning experience and contribute to students' career readiness. It serves as a guide to leveraging smart education to remain competitive and relevant in the ever-evolving field of education.
+                                                    This research equips educational institutions and stakeholders with a better understanding of how technology can enhance the learning experience and contribute to students`&apos;` career readiness. It serves as a guide to leveraging smart education to remain competitive and relevant in the ever-evolving field of education.
                                                   </p>
                                               </div>
                                           </div>

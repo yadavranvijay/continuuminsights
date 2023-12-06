@@ -33,7 +33,7 @@ const CATIVideo = ({path ,Name}) => {
        
       </video>
               <div className={isPlaying ? 'play d-none' : 'play'}>
-                <img src="images/service/play.png" alt="" />
+                <img src="/images/service/play.png" alt="" />
               </div>
             </div>
           </div>

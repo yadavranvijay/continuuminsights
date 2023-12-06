@@ -30,7 +30,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="images/about-us/cer1.jpg" alt="" />
+                      <img src="/images/about-us/cer1.jpg" alt="" />
                   </div>
                    <a href="#"> IOS (International Organization for Standardization)</a>
               </div>
@@ -38,7 +38,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="images/about-us/cer2.jpg" alt="" />
+                      <img src="/images/about-us/cer2.jpg" alt="" />
                   </div>
                    <a href="#"> MRSI (Market Research Society of India)</a>
               </div>
@@ -46,7 +46,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="images/about-us/esomar.jpg" alt="" />
+                      <img src="/images/about-us/esomar.jpg" alt="" />
                   </div>
                    <a href="#">ESOMAR</a>
               </div>

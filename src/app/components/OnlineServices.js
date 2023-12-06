@@ -91,7 +91,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/b2b1.jpg" alt="" />
+                  <img src="/images/service/b2b1.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -125,7 +125,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/b2c.jpg" alt="" />
+                  <img src="/images/service/b2c.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -161,7 +161,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/healthcare.jpg" alt="" />
+                  <img src="/images/service/healthcare.jpg" alt="" />
                 </figure>
               </div>
             </div>

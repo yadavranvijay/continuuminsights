@@ -27,7 +27,7 @@ const page = () => {
                             </div>
                             <div className="cases-right">
                               
-                                <p> An IT services provider sought to understand the decision-making influence of key stakeholders in their clients' organizations, including CIOs, IT managers, and business executives.</p>
+                                <p> An IT services provider sought to understand the decision-making influence of key stakeholders in their clients`&apos;` organizations, including CIOs, IT managers, and business executives.</p>
 
                             </div>
                         </div>

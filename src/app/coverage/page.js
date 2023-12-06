@@ -38,7 +38,7 @@ const Coverage = () => {
             You can view panel details in all available markets by hovering over the hotspots.
           </p>
           <p>
-            If your target market isn't visible, you can get in touch with  <a href="contact.html">Continuum_Insight.com</a> to share your requirements, and we will tap into our extensive network of trusted partners to find a suitable solution for you.
+            If your target market isn`&apos;`t visible, you can get in touch with  <a href="contact.html">Continuum_Insight.com</a> to share your requirements, and we will tap into our extensive network of trusted partners to find a suitable solution for you.
           </p>
        
         </div>

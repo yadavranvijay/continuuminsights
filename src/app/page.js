@@ -58,13 +58,13 @@ export default function Home() {
             countries.
           </h2>
           <div className="mt-5">
-            <a className="btn-white" href="about-us.html">READ MORE</a>
+            <Link className="btn-white" href="/about-us">READ MORE</Link>
           </div>
         </div>
       </div>
       <div className="col-lg-4 col-sm-6 mb-3 mb-sm-0">
         <figure>
-          <img src="images/home-about.jpg" alt="" />
+          <img src="/images/home-about.jpg" alt="" />
         </figure>
       </div>
     </div>
@@ -111,7 +111,7 @@ export default function Home() {
           <div className="col-12">
             <div className="careers-img-container position-relative">
               <div className="careers-img-wrapper">
-                <img alt="Life at continuuminsights" className="" src="images/home/testimonial.jpg" />
+                <img alt="Life at continuuminsights" className="" src="/images/home/testimonial.jpg" />
               </div>
               <div className="clint-says">
                 <div className="our-peopels-wrapper">

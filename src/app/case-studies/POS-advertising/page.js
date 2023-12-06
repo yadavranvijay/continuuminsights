@@ -70,7 +70,7 @@ const page = () => {
                                 <span className="fw-7">Result</span>
                             </div>
                             <div className="cases-right">
-                                <p>By scaling their survey to cover both clients' needs and consumer preferences, our client gained invaluable insights. They used the data to refine their POS advertising and promo item strategies, resulting in more successful marketing campaigns and increased customer satisfaction.
+                                <p>By scaling their survey to cover both clients`&apos;` needs and consumer preferences, our client gained invaluable insights. They used the data to refine their POS advertising and promo item strategies, resulting in more successful marketing campaigns and increased customer satisfaction.
                                 </p>
                             </div>
                         </div>

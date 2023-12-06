@@ -1,8 +1,8 @@
 "use client"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
-
 import { useState } from "react";
+import Link from "next/link";
 
 
 const HomeServices = () => {
@@ -67,7 +67,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn1()}>
                     <figure>
                       <div className="space">
-                        <img src="images/service3.jpg" alt="" />
+                        <img src="/images/service3.jpg" alt="" />
                       </div>
                     </figure>
                     <h5 className="text-black">Online Survey</h5>
@@ -86,12 +86,12 @@ const tabbtn2 =()=>{
                           gaining meaningful data for informed
                           decision-making.
                         </p>
-                        <a className="btn" href="online-survey.html">Read More</a>
+                        <Link className="btn" href="/online-survey">Read More</Link>
                       </div>
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="images/home/service1.png" alt="" />
+                          <img src="/images/home/service1.png" alt="" />
                         </figure>
                       </div>
                     </div>
@@ -105,7 +105,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn2()}>
                     <figure>
                       <div className="space">
-                        <img src="images/service2.jpg" alt="" />
+                        <img src="/images/service2.jpg" alt="" />
                       </div>
                     </figure>
                     <h5 className="text-black">Phone To Web</h5>
@@ -124,12 +124,12 @@ const tabbtn2 =()=>{
                           your research, making it accessible and actionable.
                         </p>
 
-                        <a className="btn" href="phone-to-web.html">Read More</a>
+                        <Link className="btn" href="/phone-to-web">Read More</Link>
                       </div>
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="images/home/service2.png" alt="" />
+                          <img src="/images/home/service2.png" alt="" />
                         </figure>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn3()}>
                     <figure>
                       <div className="space">
-                        <img src="images/service4.jpg" alt="" />
+                        <img src="/images/service4.jpg" alt="" />
                       </div>
                     </figure>
                     <h5 className="text-black">CATI</h5>
@@ -163,12 +163,12 @@ const tabbtn2 =()=>{
                           reliable data collection.
                         </p>
 
-                        <a className="btn" href="cati.html">Read More</a>
+                        <Link className="btn" href="/CATI">Read More</Link>
                       </div>
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="images/home/cati.png" alt="" />
+                          <img src="/images/home/cati.png" alt="" />
                         </figure>
                       </div>
                     </div>
@@ -182,7 +182,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn4()}>
                     <figure className="mx-auto">
                       <div className="space">
-                        <img src="images/service1.jpg" alt="" />
+                        <img src="/images/service1.jpg" alt="" />
                       </div>
                     </figure>
                     <h5 className="text-black">Survey Programming and Hosting</h5>
@@ -202,12 +202,12 @@ const tabbtn2 =()=>{
                           quality.
                         </p>
 
-                        <a className="btn" href="survey-programming.html">Read More</a>
+                        <Link className="btn" href="/survey-programming">Read More</Link>
                       </div>
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="images/home/Survey-Programming.png" alt="" />
+                          <img src="/images/home/Survey-Programming.png" alt="" />
                         </figure>
                       </div>
                     </div>

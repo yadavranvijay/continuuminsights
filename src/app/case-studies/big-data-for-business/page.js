@@ -70,7 +70,7 @@ const page = () => {
                                 <span className="fw-7">Result</span>
                             </div>
                             <div className="cases-right">
-                                <p>The study's findings facilitated our client's comprehension of organizational positioning on the big data adoption spectrum across diverse business functions. Valuable insights were gleaned, offering a nuanced understanding of predictive analytics at the departmental level. 
+                                <p>The study`&apos;`s findings facilitated our client`&apos;`s comprehension of organizational positioning on the big data adoption spectrum across diverse business functions. Valuable insights were gleaned, offering a nuanced understanding of predictive analytics at the departmental level. 
                                 </p>
                             </div>
                         </div>

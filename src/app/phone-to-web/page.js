@@ -30,7 +30,7 @@ const PhoneToWeb = () => {
         <div className="wrapper">
           <h2 className="Bold mb-4">What is Phone To Web ?</h2>
           <p>
-            "Phone to Web" typically refers to a method of data collection or interaction where information is
+            Phone to Web typically refers to a method of data collection or interaction where information is
             initially collected or transmitted through a phone call (typically a Computer-Assisted Telephone
             Interview, or CATI) and then transferred or connected to web-based platforms or databases for further
             analysis, storage, or reporting.

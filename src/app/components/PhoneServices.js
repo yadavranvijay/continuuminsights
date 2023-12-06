@@ -64,13 +64,13 @@ const tabbtn2 =()=>{
                 <h3>Phone Interview</h3>
                 <p>
                  
-A phone interview serves as a preliminary and convenient step in the hiring process, allowing employers to assess candidates' communication skills and initial qualifications. Conducted remotely, it offers a platform for employers to delve into a candidate's background, experience, and suitability for a role. This initial conversation often helps both parties gauge mutual interest and compatibility before proceeding to more extensive in-person interviews. Phone interviews are time-efficient, providing a snapshot of a candidate's personality and professionalism while offering the flexibility of scheduling for both interviewee and interviewer.
+A phone interview serves as a preliminary and convenient step in the hiring process, allowing employers to assess candidates`&apos;` communication skills and initial qualifications. Conducted remotely, it offers a platform for employers to delve into a candidate`&apos;`s background, experience, and suitability for a role. This initial conversation often helps both parties gauge mutual interest and compatibility before proceeding to more extensive in-person interviews. Phone interviews are time-efficient, providing a snapshot of a candidate`&apos;`s personality and professionalism while offering the flexibility of scheduling for both interviewee and interviewer.
                 </p>
               </div>
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/phone-interview.jpg" alt="" />
+                  <img src="/images/service/phone-interview.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -97,7 +97,7 @@ A phone interview serves as a preliminary and convenient step in the hiring proc
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/web-survey.jpg" alt="" />
+                  <img src="/images/service/web-survey.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -127,7 +127,7 @@ To set up a web survey, clearly define your objectives and choose a suitable onl
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="images/service/survey-setup.jpg" alt="" />
+                  <img src="/images/service/survey-setup.jpg" alt="" />
                 </figure>
               </div>
             </div>

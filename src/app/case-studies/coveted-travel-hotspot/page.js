@@ -70,7 +70,7 @@ const page = () => {
                                   <span className="fw-7">Result</span>
                               </div>
                               <div className="cases-right">
-                                  <p>Empowering the client to assess the influential factors guiding destination choices among Chinese American travelers in North and South America. The survey's Incidence Rate provided valuable insights into the percentage of those engaging in domestic travel in recent years.
+                                  <p>Empowering the client to assess the influential factors guiding destination choices among Chinese American travelers in North and South America. The survey`&apos;`s Incidence Rate provided valuable insights into the percentage of those engaging in domestic travel in recent years.
                                   </p>
                               </div>
                           </div>

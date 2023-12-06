@@ -31,7 +31,7 @@ const CATI = () => {
             <div className="wrapper">
               <h2 className="Bold mb-4 banner-color">What is Computer-Assisted Telephonic Interview (CATI) ?</h2>
               <p>
-                CATI is a traditional research method of conducting telephone surveys in which the interviewer uses a computer to record and store the respondent's answers to the survey questions.
+                CATI is a traditional research method of conducting telephone surveys in which the interviewer uses a computer to record and store the respondent`&apos;`s answers to the survey questions.
               </p>
 
               <p>
@@ -41,7 +41,7 @@ const CATI = () => {
                 If you look at the working procedure of CATI, you will find it very efficient. As we never leave our clients in dilemma. Taking feedback is one of the most important aspects for us.
               </p>
               <p>
-                Either we have a visitor or a buyer, we ask for their requirements and we haven't completed our job yet. We always take feedback so that we can enlarge the faith of our users more and more.
+                Either we have a visitor or a buyer, we ask for their requirements and we haven`&apos;`t completed our job yet. We always take feedback so that we can enlarge the faith of our users more and more.
               </p>
               <p>
                 CATI is a way through which we can easily understand the requirements as customers have more chances to explains its requirement verbally
