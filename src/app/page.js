@@ -7,42 +7,14 @@ import FooterPunchline from './components/FooterPunchline'
 import HomeCaseStudies from './components/HomeCaseStudies'
 import ReviewSlider from './components/ReviewSlider'
 import HomeServices from './components/HomeServices'
+import HomeBanner from './components/HomeBanner'
 
 export default function Home() {
   return (
     <main className="page-content">
  
     <section>
-    <div className="banner-slide">
-      <div className="home-banner pb-4 pt-4">
-        <div className="container h-100">
-          <div className="row d-flex align-items-center h-100">
-            <div className="col-md-6 px-0 px-sm-4">
-              <div className="img-item me-lg-5">
-                <div className="img p-relative">
-                <video muted loop="true" autoPlay="true">
-                <source src="/images/home/online.m4v" type="video/mp4" />
-              </video>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 bg">
-              <div className="content-item">
-                <h1>
-                  CAWI, CATI, P2W, <br /> IDI, Mixed Mode<br />
-
-                </h1>
-                <p className="Regular fs-5 text-white">
-                  All data collection solutions are under one roof.
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <HomeBanner />
   </section>
 
   <HomeServices />

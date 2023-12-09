@@ -6,7 +6,7 @@ const FooterPunchline = ({data}) => {
     
     <section className="py-5 location-wrapper">
     <div className="container">
-      <form action="form/form.php" method="POST">
+      <form action="https://formspree.io/f/xjvdnnvw" method="POST">
         <div className="row justify-content-between flex-wrap-reverse">
           <div className="col-md-5  home-form">
             <div className="row ">

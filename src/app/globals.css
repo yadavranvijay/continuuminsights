@@ -160,7 +160,7 @@ video{
 .flex-centet-start {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .section-heading{
   font-family: Gilroy-ExtraBold;
@@ -214,11 +214,15 @@ font-family: Gilroy-Bold;
   background: linear-gradient(2deg, #612f8d, #ff3676c7);
 }
 
-
+.home-banner .img{
+  min-height: 400px;
+  object-fit: cover;
+}
 
 .home-banner .img video{
   overflow: hidden;
    border-radius: 50%;
+   
  }
  
 
