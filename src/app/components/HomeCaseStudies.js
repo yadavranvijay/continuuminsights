@@ -15,7 +15,21 @@ const  HomeCaseStudies =()=> {
         arrows: false,
         centerPadding: "21.5%",
         slidesToShow: 1,
-        speed: 500
+        speed: 500,
+        autoplay: true,
+    autoplaySpeed: 2500,
+        responsive: [
+          
+          {
+            breakpoint: 768,
+            settings: {
+              centerMode: false,
+              centerPadding: "11.5%",
+              slidesToShow: 1.1,
+            }
+          },
+          
+        ]
       };
     return (
       <div>
@@ -24,7 +38,7 @@ const  HomeCaseStudies =()=> {
         <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/home/digital-world.jpg" alt="" />
+            <img src="/images/home/digital-world.jpg" alt="case1" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -45,7 +59,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/home/team-stratgy.jpg" alt="" />
+            <img src="/images/home/team-stratgy.jpg" alt="case2" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -54,7 +68,7 @@ const  HomeCaseStudies =()=> {
                 Due to the COVID-19 pandemic, organizations across ...
               </p>
               <div className="button">
-                <Link href="workforce-strategies.html">
+                <Link href="/case-studies/workforce-strategies">
                   <FaRegFileLines />
                   <span className="ms-1">Read More</span></Link>
               </div>
@@ -65,7 +79,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-3.jpg" alt="" />
+            <img src="/images/case/case-3.jpg" alt="case3" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -75,7 +89,7 @@ const  HomeCaseStudies =()=> {
                  ...
               </p>
               <div className="button">
-                <Link href="cyber-security .html">
+                <Link href="/case-studies/cyber-security">
                   <FaRegFileLines />
                   <span className="ms-1">Read More</span></Link>
               </div>
@@ -86,7 +100,7 @@ const  HomeCaseStudies =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-8.jpg" alt="" />
+            <img src="/images/case/case-8.jpg" alt="case4" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -96,7 +110,7 @@ const  HomeCaseStudies =()=> {
                  ...
               </p>
               <div className="button">
-                <Link href="e-commerce.html">
+                <Link href="/case-studies/e-commerce">
                   <FaRegFileLines />
                   <span className="ms-1">Read More</span></Link>
               </div>

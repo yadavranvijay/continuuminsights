@@ -67,7 +67,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn1()}>
                     <figure>
                       <div className="space">
-                        <img src="/images/service3.jpg" alt="" />
+                        <img src="/images/service3.jpg" alt="online survey" />
                       </div>
                     </figure>
                     <h5 className="text-black">Online Survey</h5>
@@ -91,7 +91,7 @@ const tabbtn2 =()=>{
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="/images/home/service1.png" alt="" />
+                          <img src="/images/home/service1.png" alt="online survey" />
                         </figure>
                       </div>
                     </div>
@@ -105,7 +105,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn2()}>
                     <figure>
                       <div className="space">
-                        <img src="/images/service2.jpg" alt="" />
+                        <img src="/images/service2.jpg" alt="Phone To Web" />
                       </div>
                     </figure>
                     <h5 className="text-black">Phone To Web</h5>
@@ -129,7 +129,7 @@ const tabbtn2 =()=>{
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="/images/home/service2.png" alt="" />
+                          <img src="/images/home/service2.png" alt="Phone To Web" />
                         </figure>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn3()}>
                     <figure>
                       <div className="space">
-                        <img src="/images/service4.jpg" alt="" />
+                        <img src="/images/service4.jpg" alt="CATI" />
                       </div>
                     </figure>
                     <h5 className="text-black">CATI</h5>
@@ -163,12 +163,12 @@ const tabbtn2 =()=>{
                           reliable data collection.
                         </p>
 
-                        <Link className="btn" href="/CATI">Read More</Link>
+                        <Link className="btn" href="/cati">Read More</Link>
                       </div>
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="/images/home/cati.png" alt="" />
+                          <img src="/images/home/cati.png" alt="CATI" />
                         </figure>
                       </div>
                     </div>
@@ -182,7 +182,7 @@ const tabbtn2 =()=>{
                   <div className="img-wrapper more-btn" onClick={()=>tabbtn4()}>
                     <figure className="mx-auto">
                       <div className="space">
-                        <img src="/images/service1.jpg" alt="" />
+                        <img src="/images/service1.jpg" alt="Survey Programming" />
                       </div>
                     </figure>
                     <h5 className="text-black">Survey Programming and Hosting</h5>
@@ -207,7 +207,7 @@ const tabbtn2 =()=>{
                       <div className="col-md-1"></div>
                       <div className="col-md-4">
                         <figure>
-                          <img src="/images/home/Survey-Programming.png" alt="" />
+                          <img src="/images/home/Survey-Programming.png" alt="Survey Programming" />
                         </figure>
                       </div>
                     </div>

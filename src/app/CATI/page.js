@@ -56,7 +56,7 @@ const CATI = () => {
 <CATIServices />
 
 
-<CATIVideo  path="/images/service/cati.m4v" Name="CATI"/>
+<CATIVideo  path="/images/service/Cati.m4v" Name="CATI"/>
 
 
 
@@ -82,9 +82,22 @@ export default CATI
 
 export function generateMetadata({}){
  return{ 
-  title : "CATI",
-  description:"Best Online Survey & Market Research  Company In USA. Get Complete Insight for your Business  growth to run your business Flawlessly. ✓B2B ✓B2C  Panel providers In USA who are uncovering the most  accurate insights to drives smart and effective  decision making that ensures the smooth running of a business empire.",
- 
+  title : "CATI Surveys | Continuum Insights",
+  description:"Explore the efficiency of CATI surveys with Continuum Insights. Our Computer-Assisted Telephone Interviewing services deliver high-quality data for comprehensive market research. Learn how CATI can enhance your survey .",
+  alternates: {
+    canonical: '/cati',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
+  openGraph: {
+    type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+    url: 'https://www.continuuminsights.com/cati',
+    title : "CATI Surveys | Continuum Insights",
+    description:"Explore the efficiency of CATI surveys with Continuum Insights. Our Computer-Assisted Telephone Interviewing services deliver high-quality data for comprehensive market research. Learn how CATI can enhance your survey .",
+  },  
 
 }
 }

@@ -100,7 +100,7 @@ const tabbtn2 =()=>{
                 <div className="col-md-1"></div>
                 <div className="col-md-4">
                   <figure>
-                    <img src="/images/service/cati-team.jpg" alt="" />
+                    <img src="/images/service/cati-team.jpg" alt="cati1" />
                   </figure>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="/images/service/cati.jpg" alt="" />
+                  <img src="/images/service/cati.jpg" alt="cati2" />
                 </figure>
               </div>
             </div>
@@ -229,7 +229,7 @@ const tabbtn2 =()=>{
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="/images/service/cati-b2b.jpg" alt="" />
+                  <img src="/images/service/cati-b2b.jpg" alt="cati3" />
                 </figure>
               </div>
             </div>

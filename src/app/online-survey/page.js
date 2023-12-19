@@ -10,6 +10,7 @@ import SimpleSlider from '../components/Slider'
 import CATIServices from '../components/CATIServices'
 import OnlineServices from '../components/OnlineServices'
 import OnlineSlider from '../components/OnlineSlider'
+import CATIVideo from '../components/SevicesVideo'
 
 
 const CATI = () => {
@@ -68,6 +69,9 @@ const CATI = () => {
 <OnlineServices />
 
 
+<CATIVideo path="/images/service/Onlinesurvey.m4v" Name="Online Survey" />
+
+
 
   <section className="differentiator pt-3 pb-5 " id="Case-studies">
   <div className="costum-container">
@@ -90,8 +94,22 @@ const CATI = () => {
 export default CATI
 export function generateMetadata({}){
   return{ 
-   title : "Online Market Research Companies In USA, Online Survey",
-   description:"Best Online Survey & market research providers in the USA. Data is collected in both the formats that are B2B and B2C. Data is collected with proper validation and back check. Quality of data is well maintained so that your business can get more growth. Healthcare is also included while collecting data so that more and fruitful information can be gathered.",
-   
+   title : "Empower Your Insights with Continuum Insights | Online Surveys Tailored for Success",
+   description:"Welcome to Continuum Insights' Online Survey Services — where data meets impact. Harness the power of our customized online surveys to gain deep insights into your target audience, market trends, and business performance. Elevate your decision-making with our advanced survey solutions designed to deliver meaningful results.",
+   alternates: {
+    canonical: '/online-survey',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
+  openGraph: {
+    type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+    url: 'https://www.continuuminsights.com/online-survey/',
+    title : "Empower Your Insights with Continuum Insights | Online Surveys Tailored for Success",
+    description:"Welcome to Continuum Insights' Online Survey Services — where data meets impact. Harness the power of our customized online surveys to gain deep insights into your target audience, market trends, and business performance. Elevate your decision-making with our advanced survey solutions designed to deliver meaningful results.",
+  },  
+
  }
  }

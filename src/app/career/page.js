@@ -169,8 +169,8 @@ export default page
 
 export function generateMetadata({}){
     return{ 
-     title : "Career",
-     description:"",
+     title : "Join Our Team - Continuum Insights",
+     description:"Continuum Insights is a global research platform that offers high-end data solutions to companies. We are looking for talented and passionate professionals who want to work with us and make an impact. Explore our open roles and apply today",
     
    
    }

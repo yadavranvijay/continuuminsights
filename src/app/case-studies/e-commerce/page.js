@@ -5,7 +5,7 @@ import Links from '../component/Links'
 const page = () => {
   return (
     <div className="page-content">
-    <Banner image="/images/home/digital-world-13.jpg"
+    <Banner image="/images/case/case-banner-13.jpg"
      heading=" Unveiling E-commerce Trends and Payment Fraud Management Insights"/>
 
 
@@ -95,7 +95,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "AI Adoption",
-     description:"",
+     
     
    
    }

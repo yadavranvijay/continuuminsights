@@ -8,6 +8,7 @@ import '../styles/slick.css'
 import '../styles/slick-theme.css'
 import PhoneServices from '../components/PhoneServices'
 import PhoneSlider from '../components/PhoneSlider'
+import CATIVideo from '../components/SevicesVideo'
 
 
 const PhoneToWeb = () => {
@@ -62,6 +63,9 @@ const PhoneToWeb = () => {
 <PhoneServices />
 
 
+<CATIVideo path="/images/service/Phonetoweb.m4v" Name="Phone To Web"/>
+
+
   <section className="differentiator pt-3 pb-5 " id="Case-studies">
   <div className="costum-container">
     <div className="p-relative">
@@ -83,8 +87,22 @@ export default PhoneToWeb
 
 export function generateMetadata({}){
   return{ 
-   title : "Phone To Web",
-   description:"Best Online Survey & market research providers in the USA. Data is collected in both the formats that are B2B and B2C. Data is collected with proper validation and back check. Quality of data is well maintained so that your business can get more growth. Healthcare is also included while collecting data so that more and fruitful information can be gathered.",
+   title : "Phone To Web | Empower Your Connectivity with P2W Services at Continuum Insights",
+   description:"Discover the seamless integration of phone to web services with Continuum Insights. Our P2W services redefine connectivity, providing a bridge between your mobile experience and the expansive world of the web.",
+   alternates: {
+    canonical: '/phone-to-web',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
+   openGraph: {
+     type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+     url: 'https://www.continuuminsights.com/phone-to-web/',
+     title : "Phone To Web | Empower Your Connectivity with P2W Services at Continuum Insights",
+     description:"Discover the seamless integration of phone to web services with Continuum Insights. Our P2W services redefine connectivity, providing a bridge between your mobile experience and the expansive world of the web.",
+   },  
    
  }
  }

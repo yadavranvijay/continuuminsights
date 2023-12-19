@@ -103,14 +103,14 @@ const Footer = () => {
               <h4>Services</h4>
               <ul className="ps-0">
                 <li>
-                  <Link href="/CATI">CATI</Link>
+                  <Link href="/cati">CATI</Link>
                 </li>
                 <li>
                   <Link href="/online-survey">ONLINE SURVEY</Link>
                 </li>
 
                 <li>
-                  <Link href="/survey-programming">
+                  <Link href="/survey-programming/#data-processing">
                     DATA PROCESSING & ANALYSIS
                   </Link>
                 </li>
@@ -126,7 +126,7 @@ const Footer = () => {
               <h4>Our Panel App</h4>
               <div className="app-link-wrapper">
                 <Link href="#">
-                  <img src="/images/ios.webp" alt="" />
+                  <img src="/images/ios.webp" alt="ios app" />
                 </Link>
                 <Link
                   className="pt-3 d-inline-block"

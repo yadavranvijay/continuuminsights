@@ -90,7 +90,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "New Travel Landscape",
-     description:"",
+     
     
    
    }

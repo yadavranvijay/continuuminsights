@@ -70,7 +70,7 @@ A phone interview serves as a preliminary and convenient step in the hiring proc
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="/images/service/phone-interview.jpg" alt="" />
+                  <img src="/images/service/phone-interview.jpg" alt="phone1" />
                 </figure>
               </div>
             </div>
@@ -97,7 +97,7 @@ A phone interview serves as a preliminary and convenient step in the hiring proc
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="/images/service/web-survey.jpg" alt="" />
+                  <img src="/images/service/web-survey.jpg" alt="phone2" />
                 </figure>
               </div>
             </div>
@@ -127,7 +127,7 @@ To set up a web survey, clearly define your objectives and choose a suitable onl
               <div className="col-md-1"></div>
               <div className="col-md-4">
                 <figure>
-                  <img src="/images/service/survey-setup.jpg" alt="" />
+                  <img src="/images/service/survey-setup.jpg" alt="phone3" />
                 </figure>
               </div>
             </div>

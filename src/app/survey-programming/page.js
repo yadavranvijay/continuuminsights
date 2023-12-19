@@ -7,6 +7,7 @@ import FooterPunchline from '../components/FooterPunchline'
 import '../styles/slick.css'
 import '../styles/slick-theme.css'
 import ProgrammingServices from '../components/ProgrammingServices'
+import CATIVideo from '../components/SevicesVideo'
 
 
 const SurveyProgramming = () => {
@@ -68,6 +69,7 @@ const SurveyProgramming = () => {
 <ProgrammingServices />
 
 
+<CATIVideo path="/images/service/Surveyprogramming.m4v" Name="Survey Programming" />
 
  
   <FooterPunchline  data="Transforming Raw Data into Invaluable Insights – Your Path to
@@ -84,6 +86,19 @@ export function generateMetadata({}){
   return{ 
    title : "Survey Programming approach to complete surveys",
    description:"The reason why we are called as best online survey company is because we are following proper survey programming. Survey programming is developed under guidance of the best experts. In this proper calculation of complete and incomplete surveys are taken care and incomplete ones are completed with 24x7 support provided by our survey programmers.",
-   
+   alternates: {
+    canonical: '/survey-programming',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
+   openGraph: {
+     type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+     url: 'https://www.continuuminsights.com/survey-programming/',
+     title : "Survey Programming approach to complete surveys",
+     description:"The reason why we are called as best online survey company is because we are following proper survey programming. Survey programming is developed under guidance of the best experts. In this proper calculation of complete and incomplete surveys are taken care and incomplete ones are completed with 24x7 support provided by our survey programmers.",
+   }, 
  }
  }

@@ -5,7 +5,7 @@ const Banner = ({ Name, image, heading, para }) => {
     <div>
     <div className="online-banner p-relative of-hidden">
       <div className="bg-img">
-        <img src={image} alt="" />
+        <img src={image} alt="banner" />
       </div>
       <div className="image-shadow p-relative">
         <div className="costum-container">

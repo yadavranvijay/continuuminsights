@@ -91,7 +91,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Big Data for Business Advancement",
-     description:"",
+     
     
    
    }

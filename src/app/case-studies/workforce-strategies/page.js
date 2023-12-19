@@ -115,7 +115,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Workforce Strategies",
-     description:"",
+     
     
    
    }

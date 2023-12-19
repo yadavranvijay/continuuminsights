@@ -93,7 +93,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Consumer Behavior",
-     description:"",
+     
     
    
    }

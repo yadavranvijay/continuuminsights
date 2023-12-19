@@ -23,7 +23,7 @@ const HomeBanner = () => {
           <div className="row d-flex align-items-center h-100">
             <div className="col-md-6 px-0 px-sm-4">
               <div className="img-item me-lg-5">
-                <div className="img p-relative">
+                <div className="img p-relative d-flex align-items-center">
                   {videoLoaded && !videoPlaying ?   (
                     <div className="loader">Loading...</div>
                   ):null }

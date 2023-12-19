@@ -89,7 +89,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Smart Education",
-     description:"",
+     
     
    
    }

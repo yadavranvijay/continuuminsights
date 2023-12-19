@@ -148,12 +148,7 @@ const [allData ,setAllData] =useState(products.data)
 
   
 
-  // const filterProduct = (value) => {
-  //   const updateItems =products.data.filter((cruElem) =>{
-  //     return cruElem.category ===value
-  //   })
-  //   setAllData(updateItems)
-  // };
+ 
   const filterProduct = (value) => {
     setFilter(value);
     const updateItems = value === 'all' ? products.data : products.data.filter((cruElem) => cruElem.category === value);
@@ -220,3 +215,5 @@ const [allData ,setAllData] =useState(products.data)
 };
 
 export default GalleryPage;
+
+

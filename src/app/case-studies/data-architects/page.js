@@ -91,7 +91,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Data Architects",
-     description:"",
+     
     
    
    }

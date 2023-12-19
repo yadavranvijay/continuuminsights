@@ -3,22 +3,24 @@
 
 import { useState, useRef } from 'react';
 
-const CATIVideo = ({path ,Name}) => {
+const CATIVideo = ({ path, Name }) => {
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
+  const handlePlayPause = () => {
+    if (videoRef.current.paused) {
+      videoRef.current.play();
+    } else {
+      videoRef.current.pause();
+    }
+    setIsPlaying(!isPlaying);
+  };
 
-    const videoRef = useRef(null);
-    const [isPlaying, setIsPlaying] = useState(false);
-    
-    
- 
-    const handlePlayPause = () => {
-      if (videoRef.current.paused) {
-        videoRef.current.play();
-      } else {
-        videoRef.current.pause();
-      }
-      setIsPlaying(!isPlaying);
-    };
+  const handleVideoEnd = () => {
+    // Handle the end of the video, e.g., reset the play state
+    setIsPlaying(false);
+  };
+
   return (
     <div className="py-5">
       <div className="costum-container">
@@ -28,19 +30,18 @@ const CATIVideo = ({path ,Name}) => {
           </div>
           <div className="col-md-8">
             <div className="wrapper video-wrapper p-relative" onClick={handlePlayPause}>
-             <video ref={videoRef}  >
-        <source src={path} type="video/mp4" />
-       
-      </video>
+              <video ref={videoRef} className='d-block' onEnded={handleVideoEnd}>
+                <source src={path} type="video/mp4" />
+              </video>
               <div className={isPlaying ? 'play d-none' : 'play'}>
-                <img src="/images/service/play.png" alt="" />
+                <img src="/images/service/play.png" alt="play" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CATIVideo
+export default CATIVideo;

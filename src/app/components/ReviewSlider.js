@@ -12,7 +12,10 @@ const  ReviewSlider =()=> {
         dots:true,
         arrows: false,
         slidesToShow: 1,
-        speed: 500
+        speed: 500,
+        autoplay: true,
+    autoplaySpeed: 2000,
+    
       };
     return (
       <div>
@@ -21,7 +24,7 @@ const  ReviewSlider =()=> {
         <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="/images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="review1" />
           </div>
           <div className="text">
             <p className="employeespeak-content">
@@ -38,7 +41,7 @@ const  ReviewSlider =()=> {
       <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="/images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="review1" />
           </div>
           <div className="text">
             <p className="employeespeak-content">
@@ -55,7 +58,7 @@ const  ReviewSlider =()=> {
       <div>
         <div className="peopels-content-wrapper flex-centet-start">
           <div className="img-wrapper me-3">
-            <img src="/images/home/user.jpg" alt="" />
+            <img src="/images/home/user.jpg" alt="review3" />
           </div>
           <div className="text">
             <p className="employeespeak-content">

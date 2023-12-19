@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.html
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^continuuminsights.com
+RewriteRule (.*) https://www.continuuminsights.com/$1 [R=301,L]

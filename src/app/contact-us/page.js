@@ -90,8 +90,22 @@ const Contact = () => {
 export default Contact
 export function generateMetadata({}){
   return{ 
-   title : "Contact Us",
-   description:"",
+   title : "Contact Us | Continuum Insights",
+   description:"Reach out to Continuum Insights for all your market research and online survey needs. Whether you have questions, need assistance, or want to explore partnership opportunities, our team is here to assist you. Find our contact information below and connect with us for insightful solutions tailored to your business",
+   alternates: {
+    canonical: '/contact-us',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
+   openGraph: {
+     type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+     url: 'https://www.continuuminsights.com/contact-us/',
+     title : "Contact Us | Continuum Insights",
+     description:"Reach out to Continuum Insights for all your market research and online survey needs. Whether you have questions, need assistance, or want to explore partnership opportunities, our team is here to assist you. Find our contact information below and connect with us for insightful solutions tailored to your business",
+   },  
    
  }
  }

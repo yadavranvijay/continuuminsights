@@ -91,7 +91,7 @@ export default page
 export function generateMetadata({}){
     return{ 
      title : "Coveted Travel Hotspots",
-     description:"",
+     
     
    
    }

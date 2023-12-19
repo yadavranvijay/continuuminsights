@@ -14,7 +14,21 @@ const  CATISlider =()=> {
         arrows: false,
         centerPadding: "21.5%",
         slidesToShow: 1,
-        speed: 500
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 2500,
+            responsive: [
+              
+              {
+                breakpoint: 768,
+                settings: {
+                  centerMode: false,
+                  centerPadding: "11.5%",
+                  slidesToShow: 1.1,
+                }
+              },
+              
+            ]
       };
     return (
       <div>
@@ -23,7 +37,7 @@ const  CATISlider =()=> {
         <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-1.jpg" alt="" />
+            <img src="/images/case/case-1.jpg" alt="case1" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -44,7 +58,7 @@ const  CATISlider =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-2.jpg" alt="" />
+            <img src="/images/case/case-2.jpg" alt="case2" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -64,7 +78,7 @@ const  CATISlider =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-13.jpg" alt="" />
+            <img src="/images/case/case-13.jpg" alt="case3" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">
@@ -84,7 +98,7 @@ const  CATISlider =()=> {
       <div className="swiper-slide">
         <div className="differentiator-item-wrapper">
           <div className="img">
-            <img src="/images/case/case-4.jpg" alt="" />
+            <img src="/images/case/case-4.jpg" alt="case4" />
           </div>
           <div className="service-text-wrapper">
             <div className="service-text">

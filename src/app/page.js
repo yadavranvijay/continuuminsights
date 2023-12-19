@@ -34,9 +34,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="col-lg-4 col-sm-6 mb-3 mb-sm-0">
+      <div className="col-lg-4 col-sm-6 mb-3 mb-sm-0 ">
         <figure>
-          <img src="/images/home-about.jpg" alt="" />
+          <img src="/images/home-about.jpg" alt="about" />
         </figure>
       </div>
     </div>
@@ -44,9 +44,9 @@ export default function Home() {
 </section>
 
 
-<section className="py-5 our-purpose-wrapper">
+<section className="py-md-5 pt-2 our-purpose-wrapper">
 <div className="container">
-  <div className="our-purpose p-5">
+  <div className="our-purpose p-md-5">
     <div className="wrapper text-center">
       <h2 className="section-heading">Our Purpose:</h2>
       <p className="section-dece-reg">
@@ -68,11 +68,11 @@ export default function Home() {
 
     <section className="career bg-grey">
       <div className="container">
-        <div className="row py-5">
+        <div className="row py-md-5 pt-5 pb-3">
           <div className="col-12">
             <div className="heading text-center">
               <h2 className="section-heading">Testimonial</h2>
-              <p className="section-dece-light w-75 mx-auto">
+              <p className="section-dece-light w-md-75 mx-auto">
                 Clients praise Continuum Insights for transformative data
                 solutions.
               </p>
@@ -106,3 +106,29 @@ Research."/></div>
     </main>
   )
 }
+
+
+
+export function generateMetadata({}){
+  return{ 
+   
+    title: 'Online Survey & Market Research Company in USA, B2B Panel providers USA',
+    description: 'Best Online Survey & Market Research Company In USA. Get Complete Insight for your Business growth to run your business Flawlessly. ✓B2B ✓B2C Panel providers',
+   
+    alternates: {
+      canonical: '/',
+      languages: {
+        'en-US': '/en-US',
+        
+      },
+    },
+    openGraph: {
+      type: 'website',
+images: '/images/Continuum_Insight_Logo.png',
+      url: 'https://www.continuuminsights.com',
+      title: 'Online Survey & Market Research Company in USA, B2B Panel providers USA',
+      description: 'Best Online Survey & Market Research Company In USA. Get Complete Insight for your Business growth to run your business Flawlessly. ✓B2B ✓B2C Panel providers',
+      
+    },  
+ }
+ }

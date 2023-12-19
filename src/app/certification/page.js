@@ -3,10 +3,8 @@
 
 import React from 'react'
 import Banner from '../components/Banner'
-import FooterPunchline from '../components/FooterPunchline'
 import '../styles/slick.css'
 import '../styles/slick-theme.css'
-import Choose from '../components/Choose'
 
 
 const Certification = () => {
@@ -30,7 +28,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="/images/about-us/cer1.jpg" alt="" />
+                      <img src="/images/about-us/cer1.jpg" alt="certification" />
                   </div>
                    <a href="#"> IOS (International Organization for Standardization)</a>
               </div>
@@ -38,7 +36,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="/images/about-us/cer2.jpg" alt="" />
+                      <img src="/images/about-us/cer2.jpg" alt="certification" />
                   </div>
                    <a href="#"> MRSI (Market Research Society of India)</a>
               </div>
@@ -46,7 +44,7 @@ const Certification = () => {
           <div className="col-md-4">
               <div className="wrapper">
                   <div className="img-wrapper">
-                      <img src="/images/about-us/esomar.jpg" alt="" />
+                      <img src="/images/about-us/esomar.jpg" alt="certification" />
                   </div>
                    <a href="#">ESOMAR</a>
               </div>
@@ -64,8 +62,15 @@ export default Certification
 
 export function generateMetadata({}){
  return{ 
-  title : "Certification",
-  description:"",
+  title : "Our Certifications |  Continuum Insights",
+  description:"Discover the certifications offered by Continuum Insights, showcasing our dedication to professionalism and quality in market research and online surveys. Our certified experts bring a wealth of knowledge to ensure the success of your projects.",
+  alternates: {
+    canonical: '/certification',
+    languages: {
+      'en-US': '/en-US',
+      
+    },
+  },
  
 
 }

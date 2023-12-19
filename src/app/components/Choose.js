@@ -9,7 +9,7 @@ const Choose = () => {
     
     
     const tabbtn1 =()=>{
-    setTab1(true)
+    setTab1(!tab1)
   
     
     
@@ -38,7 +38,7 @@ const Choose = () => {
               data-aos="fade-up"
               data-aos-duration="4000"
             >
-              <div className="wrapper mt-3 hide-content-wrapper">
+              <div className="wrapper mt-4 hide-content-wrapper">
                 <h2 className="Bold mb-4">Why you choose us?</h2>
                 <p className="text-justify">
                   Success comes to those who move ahead with innovation and
@@ -79,7 +79,7 @@ const Choose = () => {
                     factor.
                   </p>
                 </div>
-                <button className="btn-transparent more-less-btn" onClick={()=>tabbtn1()}>Read More</button>
+                <button className="btn-transparent more-less-btn" onClick={()=>tabbtn1()}>{tab1 ? "Read More":"Read Less"}</button>
                 
               </div>
             </div>
